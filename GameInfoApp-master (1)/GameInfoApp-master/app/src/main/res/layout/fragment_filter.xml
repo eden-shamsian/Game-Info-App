@@ -1,0 +1,78 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Released Year Range Slider -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Released Year"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.slider.RangeSlider
+            android:id="@+id/slider_released_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:valueFrom="1970"
+            android:valueTo="2025"
+            android:stepSize="1"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Platforms Multi-Choice Button -->
+        <Button
+            android:id="@+id/btn_platforms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Platforms"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Genre Multi-Choice Button -->
+        <Button
+            android:id="@+id/btn_genres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Genres"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Company Multi-Choice Button -->
+        <Button
+            android:id="@+id/btn_companies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Companies"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+            <Button
+                android:id="@+id/btn_reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reset"
+                android:layout_marginEnd="8dp"
+                android:backgroundTint="@color/grey"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_apply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apply"
+                android:backgroundTint="@color/lavender"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
