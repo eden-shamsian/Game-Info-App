@@ -1,6 +1,6 @@
 # Game Info App
 
-GameInfoApp is an Android application built with Java that provides detailed information about video games. The app displays descriptions, game details, trailers, and allows filtering by various categories.
+Game Info App is an Android application built with Java that provides detailed information about video games. The app displays descriptions, game details, trailers, and allows filtering by various categories.
 
 ## Key Features
 - **Search and Filtering** – Filter games by categories such as companies, genres, platforms, ratings, and release years.
